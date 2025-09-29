@@ -27,6 +27,6 @@ struct Task{
 
 std::string progressToString(Progress progress);
 
-Progress stringToProgress(const std::string& statusStr);
+Progress stringToProgress(const std::string& progressStr);
 
 #endif

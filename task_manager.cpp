@@ -73,7 +73,7 @@ void TaskManager::listTasks(Progress filterProgress, bool filter) const{
             std::cout << "ID: " << task.id << "\n";
             std::cout << "Title: " << task.name << "\n";
             std::cout << "Description: " << task.desc << "\n";
-            std::cout << "Status: " << progressToString(task.progress) << "\n";
+            std::cout << "Progress: " << progressToString(task.progress) << "\n";
             std::cout << "-----------------------\n";
         }
     }

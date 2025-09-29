@@ -6,6 +6,6 @@
 #include "task.h"
 
 std::vector<Task> readTasksFromFile(const std::string& filePath);
-void writeTasksToFile(const std::string& filePath, const std::vector<Task> tasks);
+void writeTasksToFile(const std::string& filePath, const std::vector<Task>& tasks);
 
 #endif
